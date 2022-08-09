@@ -175,9 +175,33 @@ ________________________________________________________________________________
        
        - 500 INTERNAL_SERVER_ERROR Internal Server Error
        
-       -503 - Service Unavailable
+       - 503 - Service Unavailable
        
 ____________________________________________________________________________________________________________________________________________________________
+
+   11. What is node.js ?
+
+        Node.js is an open source and cross-platform runtime environment for executing JavaScript code outside of a browser.
+        
+        NodeJS is not a framework and it’s not a programming language. 
+        
+        Most of the people are confused and understand it’s a framework or a programming language.
+        
+        We often use Node.js for building back-end services like APIs like Web App or Mobile App.
+        
+        It’s used in production by large companies such as Paypal, Uber, Netflix, Walmart and so on.
+        
+        Node.js is a platform for building the i/o applications which are server-side event-driven and made using JavaScript. 
+        
+        It is used to build server-side, input-output, event-driven apps. It is built on Google’s V8 engine.
+        
+___________________________________________________________________________________________________________________________________________________________
+
+   12. Difference between HTTP and HTTPS
+
+       
+
+
 
   
      
