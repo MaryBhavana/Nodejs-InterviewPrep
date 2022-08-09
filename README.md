@@ -199,6 +199,47 @@ ________________________________________________________________________________
 
    12. Difference between HTTP and HTTPS
 
+       HTTP - HyperText Transfer Protocol (HTTP) is a protocol using which hypertext is transferred over the Web.
+       Due to its simplicity, http has been the most widely used protocol for data transfer over the Web but the data 
+       (i.e. hypertext) exchanged using http isn’t as secure as we would like it to be. In fact, hyper-text exchanged 
+       using http goes as plain text i.e. anyone between the browser and server can read it relatively easy 
+       if one intercepts this exchange of data.
+       
+       HTTPS - https was introduced so that a secure session is setup first between Server and Browser. 
+       In fact, cryptographic protocols such as SSL and/or TLS turn http into https i.e. https = http + cryptographic protocols.
+       Also, to achieve this security in https, Public Key Infrastructure (PKI) is used because public keys can be used 
+       by several Web Browsers while private key can be used by the Web Server of that particular website.
+       
+       Differences between HTTP and HTTPS
+
+         - HTTP stands for HyperText Transfer Protocol and HTTPS stands for HyperText Transfer Protocol Secure.
+         - In HTTP, URL begins with “http://” whereas URL starts with “https://”
+         - HTTP uses port number 80 for communication and HTTPS uses 443
+         - HTTP is considered to be insecure and HTTPS is secure
+         - HTTP Works at Application Layer and HTTPS works at Transport Layer
+         - In HTTP, Encryption is absent and Encryption is present in HTTPS as discussed above
+         - HTTP does not require any certificates and HTTPS needs SSL Certificates
+         - HTTP speed is faster than HTTPS and HTTPS speed is slower than HTTP
+         - HTTP does not improve search ranking while HTTPS improves search ranking.
+         - HTTP does not use data hashtags to secure data, while HTTPS will have the data before sending it and return it to its original state on the receiver side.
+
+______________________________________________________________________________________________________________________________________________________________________
+
+   13. What are JWT tokens?
+
+       jSON Web Token is an open industry standard used to share information between two entities, 
+       usually a client (like your app’s frontend) and a server (your app’s backend). They contain JSON objects 
+       which have the information that needs to be shared.
+
+       A JSON web token(JWT) is JSON Object which is used to securely transfer information over the web(between two parties). 
+       
+       It can be used for an authentication system and can also be used for information exchange.The token is mainly composed of 
+       header, payload, signature. These three parts are separated by dots(.). 
+       
+       JWT defines the structure of information we are sending from one party to the another, and it comes in two forms – Serialized, Deserialized.
+       
+       
+
        
 
 
